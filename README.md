@@ -12,6 +12,7 @@ Tarefas:
 <li>Se vários datasets, identificar chaves primárias e realizar a junção (join);</li>
 <li>Criação de novos dados para facilitar a análise (feature engineering).
 Realizar pelo menos 5 análises descritivas e gerar os respectivos gráficos (as análises devem ser combinadas com o professor da disciplina);</li>
+<li>Escrever um artigo com cerca de 4 e 6 páginas explicando o passo a passo desta atividade.</li>
 
 <h2>Como rodar localmente, abrir o terminal e utilizar os comandos a seguir:</h2>
 
