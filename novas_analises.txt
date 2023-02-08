@@ -1,0 +1,19 @@
+primeiro_lugar_longo_anos = dogs[dogs.Position==1].groupby('Breed').count().Position.sort_values(ascending=False)
+plt.figure(figsize=(13,5))
+plt.bar(primeiro_lugar_longo_anos.index, primeiro_lugar_longo_anos.values)
+plt.title('Raças que ficaram em primeiro lugar')
+plt.xticks(rotation=90)
+plt.show()
+
+
+
+
+#################################
+
+
+nos_tres_primeiros_lugares = dogs[(dogs.Position>=1) & (dogs.Position<=3)].groupby('Breed').count().Position.sort_values()
+plt.figure(figsize=(13,5))
+plt.bar(nos_tres_primeiros_lugares.index, nos_tres_primeiros_lugares.values)
+plt.title('Raças Mais Populares que ficaram pelo menos nos tres primeiros lugares')
+plt.xticks(rotation=90)
+plt.show()
